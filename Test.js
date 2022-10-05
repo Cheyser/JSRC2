@@ -269,10 +269,10 @@
 // }
 // console.log(narr)
 // - Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for of зібрати всі букви в слово.
-let mass = ['a', 'b', 'c'];
-let lett = ''
-for(let nar of mass){
-    lett=lett+nar
-}
-console.log(lett);
-// console.log(nar)
+// let mass = ['a', 'b', 'c'];
+// let lett = ''
+// for(let nar of mass){
+//     lett=lett+nar
+// }
+// console.log(lett);
+// // console.log(nar)
