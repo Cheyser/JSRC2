@@ -95,12 +95,10 @@ function newmas (mass = []) {
 // let massAll = [Computer, Accessories];
 // console.log(randomObj(...massAll))
 
-function randomObj (xui = []){
-    // for (let i = 0; i<xui.length; i++){
-    return xui = (Object.keys(Computer)+Object.keys(Accessories));
-    }
-        
-// }
+function randomObj (){
+    let mass = [(Object.keys(Computer)+Object.keys(Accessories))]
+    return mass
+}
 
 Computer = {
     CPU: 'i5 12500',
@@ -115,8 +113,7 @@ Accessories = {
     Keyboard: true,
     Monitor: 550
 }
-let massall = [];
-console.log(randomObj(massall))
+console.log(randomObj())
 
 
 
