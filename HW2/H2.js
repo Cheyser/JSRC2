@@ -95,38 +95,57 @@ function newmas (mass = []) {
 // let massAll = [Computer, Accessories];
 // console.log(randomObj(...massAll))
 
-function randomObj (){
-    let mass = [(Object.keys(Computer)+Object.keys(Accessories))]
-    return mass
-}
+// function randomObj (){
+//     let mass = [(Object.keys(Computer)+Object.keys(Accessories))]
+//     return mass
+// }
 
-Computer = {
-    CPU: 'i5 12500',
-    GPU: '3070ti',
-    RAM: 16,
-    SSD: 1000,
-    HHD: false
-}
+// Computer = {
+//     CPU: 'i5 12500',
+//     GPU: '3070ti',
+//     RAM: 16,
+//     SSD: 1000,
+//     HHD: false
+// }
 
-Accessories = {
-    Mouse: 'X7 k705',
-    Keyboard: true,
-    Monitor: 550
-}
-console.log(randomObj())
-
-
-
+// Accessories = {
+//     Mouse: 'X7 k705',
+//     Keyboard: true,
+//     Monitor: 550
+// }
+// console.log(randomObj())
 
 // 10) Створити функцію яка приймає масив будь яких объектів, та повертає масив значень всіх обєктів
 // EXAMPLE:
 // [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ Dima, 13, Camry ]
+
+// function randomObj (){
+//     let mass = [(Object.values(Computer)+Object.values(Accessories))]
+//     return mass
+// }
+
+// Computer = {
+//     CPU: 'i5 12500',
+//     GPU: '3070ti',
+//     RAM: 16,
+//     SSD: 1000,
+//     HHD: false
+// }
+
+// Accessories = {
+//     Mouse: 'X7 k705',
+//     Keyboard: true,
+//     Monitor: 550
+// }
+// console.log(randomObj())
+
 // 11) створити функцію  яка скаладає значення елементів з однаковими індексами  та повертає новий результуючий масив.
 //   EXAMPLE:
 //   [1,2,3,4]
 //   [2,3,4,5]
 //   результат
 //   [3,5,7,9]
+
 
 // =========================
 
