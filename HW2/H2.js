@@ -52,11 +52,75 @@ function newmas (mass = []) {
 // }
 // nummn ([7,4,1,6,44,1])
 // 7) створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його.
-
+// function allmas (mass=[]){
+//     let zero = 0
+// for (let i=0; i<mass.length; i++){
+//     zero = mass[i]+zero
+// }
+// return console.log(zero)
+// }
+// allmas([5,6,1,12])
 // 8) створити функцію яка приймає масив чисел та повертає середнє арифметичне його значень.
+// function allmas (mass=[]){
+//     let zero = 0
+// for (let i=0; i<mass.length; i++){
+//     zero = mass[i]+zero
+// }
+// return console.log(zero/mass.length)
+// }
+// allmas([5,6,1,12])
 // 9) Створити функцію яка приймає масив будь яких объектів, та повертає масив ключів всіх обєктів
 // EXAMPLE:
 // [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ name, age, model ]
+// function randomObj (obj,bomj){
+//     for (let i = 0; i<massAll.length; i++){
+//     return (Object.keys(obj) + Object.keys(bomj))
+//     }
+        
+// }
+
+// Computer = {
+//     CPU: 'i5 12500',
+//     GPU: '3070ti',
+//     RAM: 16,
+//     SSD: 1000,
+//     HHD: false
+// }
+
+// Accessories = {
+//     Mouse: 'X7 k705',
+//     Keyboard: true,
+//     Monitor: 550
+// }
+// let massAll = [Computer, Accessories];
+// console.log(randomObj(...massAll))
+
+function randomObj (xui = []){
+    // for (let i = 0; i<xui.length; i++){
+    return xui = (Object.keys(Computer)+Object.keys(Accessories));
+    }
+        
+// }
+
+Computer = {
+    CPU: 'i5 12500',
+    GPU: '3070ti',
+    RAM: 16,
+    SSD: 1000,
+    HHD: false
+}
+
+Accessories = {
+    Mouse: 'X7 k705',
+    Keyboard: true,
+    Monitor: 550
+}
+let massall = [];
+console.log(randomObj(massall))
+
+
+
+
 // 10) Створити функцію яка приймає масив будь яких объектів, та повертає масив значень всіх обєктів
 // EXAMPLE:
 // [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ Dima, 13, Camry ]
