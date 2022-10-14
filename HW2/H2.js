@@ -1,7 +1,7 @@
 // 1) створити функцію яка приймає масив та виводить його
-function newmas (mass = []) {
-    console.log(mass)
-}
+// function newmas (mass = []) {
+//     console.log(mass)
+// }
 // newmas ([1, 5, 7])
 
 // 2) створити функцію яка заповнює масив рандомними числами та виводить його. Для виведення використати попередню функцію.
@@ -145,13 +145,74 @@ function newmas (mass = []) {
 //   [2,3,4,5]
 //   результат
 //   [3,5,7,9]
+// function sumamas (mas1, mas2){
+//     let sum = []
+// for (let indx in mas1){
+//     sum.push(mas1[indx]+mas2[indx])
+// }
+// return console.log(sum)
+// }
+// sumamas ([1,2,3,4], [2,3,4,5])
 
 
 // =========================
 
-// - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено);
+// - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, 
+//   а виводить найбільше (Math використовувати заборонено);
+
+// function allnum (){
+//     let maximum = arguments[0];
+//     let minimum = arguments[0];
+//     for (let allnum of arguments){
+//         if (allnum > maximum) maximum = allnum;
+//         if (allnum < minimum) minimum = allnum;
+//     }
+//     console.log(maximum);
+//     console.log(minimum);
+//     return minimum;
+// }
+// allnum (1,2,5,6,8)
+
 // - Взяти задачі з завдання 10 та 9 та обєднати їх в одну динамічну функцію.
 //   Що б я міг сам вибрати повернути мені масив ключів чи масив значень.
+
+// function allnew (objects, variant){
+//     let araara = []
+//     for (let obj of objects){
+//         if (variant === 'values'){
+//             for (let value of Object.values(obj)){
+//            araara.push(value)
+           
+//         }
+//         }
+//         else if (variant === 'keys'){
+//             for (let keys of Object.keys(obj)){
+//                 araara.push(keys)
+//             }
+//         }
+//         else {
+//             araara = 'please print "keys" or "values"'
+//         }
+
+//     }
+//     return console.log(araara)
+// }
+// Computer = {
+//     CPU: 'i5 12500',
+//     GPU: '3070ti',
+//     RAM: 16,
+//     SSD: 1000,
+//     HHD: false
+// }
+
+// Accessories = {
+//     Mouse: 'X7 k705',
+//     Keyboard: true,
+//     Monitor: 50
+// }
+// allvar = [Computer, Accessories]
+// allnew (allvar, true)
+
 // - Приймає масив та число "i", та міняє місцями об`єкт який знаходиться в індексі "i" на "i+1"
 //   EXAMPLE:
 //   foo([9,8,0,4], 0) // ==> [ 8, 9, 0, 4 ]
